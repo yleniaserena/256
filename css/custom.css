@@ -1,0 +1,50 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+	
+.feature {
+	background: yellowgreen linear-gradient(to bottom, greenyellow, olivedrab);
+	color: black;
+	}
+
+#feature-carousel {
+	min-height: 250px;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: yellowgreen;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #eee;
+	padding: 30px 0;
+}
+.article-intro:first-letter    {
+    font-weight:bold;
+    font-size: 2.8em;
+    float:left;
+    padding-right:10px;
+}
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: left;
+	
+	}
