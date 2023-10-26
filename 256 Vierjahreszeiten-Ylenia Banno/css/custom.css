@@ -1,0 +1,63 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+					
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(255, 255, 255);
+	}
+	
+.feature {
+	background: rgb(201, 166, 218) linear-gradient(to bottom, rgb(210, 103, 219), rgb(129, 22, 111));
+	color: rgb(169, 82, 196);
+	}
+
+#feature-carousel {
+	min-height: 250px;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: rgb(163, 83, 157);
+    color: rgb(126, 16, 136);
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #eee;
+	padding: 30px 0;
+}
+.article-intro:first-letter    {
+    font-weight:bold;
+    font-size: 2.8em;
+    float:left;
+    padding-right:10px;
+}
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: left;
+	
+	}
+
+.item {
+	text-align: center;
+}
+
+.item h1 {
+	color: rgb(119, 16, 102);
+}
+
+.item p {
+	color: white;
+}
