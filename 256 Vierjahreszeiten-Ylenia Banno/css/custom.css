@@ -9,24 +9,33 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	
 .feature {
-	background: rgb(201, 166, 218) linear-gradient(to bottom, rgb(210, 103, 219), rgb(129, 22, 111));
+	background: rgb(235, 168, 235) linear-gradient(to bottom, rgb(241, 209, 239), rgb(129, 22, 111));
 	color: rgb(169, 82, 196);
 	}
-
+.wilkommen {
+	font-size: 20px;
+}
 #feature-carousel {
 	min-height: 250px;
+	
 	}
 	
 .article-intro {
     margin-bottom: 25px;
 }
+.article-intro  p:first-letter{
+    font-weight:bold;
+    font-size: 20px;
+}
 
 .footer-blurb {
-    padding: 30px 0;
     background-color: rgb(163, 83, 157);
     color: rgb(126, 16, 136);
 }
-    
+.footer-blurb p:first-letter{
+	font-weight:bold;
+    font-size: 20px; 
+}
 .footer-blurb-item {
     padding: 30px;
     }
@@ -35,11 +44,9 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #eee;
 	padding: 30px 0;
 }
-.article-intro:first-letter    {
+.article-intro p:first-letter    {
     font-weight:bold;
-    font-size: 2.8em;
-    float:left;
-    padding-right:10px;
+    font-size: 20px;
 }
 .feature,
 .page-intro,
@@ -50,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 	}
 
-.item {
+.item  {
 	text-align: center;
 }
 
